@@ -1,14 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Unibrow TV Test v. 2</title>
+	<meta charset="utf-8">
+  <meta name="description" content="Your description goes here">
+  <meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rovi TVGuide Prototype</title>
+	
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet"> 
 
 	<script type="text/javascript" src="js/libs/jquery-1.11.1.min.js"></script>
-	
 
 	<!-- libs -->
-	
 	<script type="text/javascript" src="js/libs/mousetrap.min.js"></script>
 	<script type="text/javascript" src="js/libs/jquery.simpleWeather.min.js"></script>
 
@@ -30,24 +34,35 @@
 
 	</head>
 <body>
-
-
-
 <div id="header">
-	<div class="headerLeft">Guide /<span class="bcHi"> What's On</span></div>
-	<div class="headerRight"><span id="time"></span> / <span id="temp"></span><span id="avatar"><img src="res/images/avatar.png"></span></div>
-</div>
+	<div class="headerLeft">
+		<i class="fa fa-search fa-2x"></i> <span class="bcHi"> Hi John!</span>
+	</div>
+	
+	<div class="headerRight">
+		<!-- <h1><span id="brand-name1">MSO</span></h1><span id="time"></span> / <span id="temp"></span> --><!-- <span id="avatar"><img src="res/images/avatar.png"></span> -->
+		
+		<div class="column1">
+			<span id="time"></span> / <span id="temp"></span>
+		</div>
+
+		<!-- <div class="column2">
+			<h1 class="brand-name1">MSO</h1>
+		</div> -->
+
+	</div>
+</div>	
 
 <div id="appShell">
 	<div id="menuBarOverlay"></div>
 	<div id="menuContainer">
 		<ul id="menuList">
-			<li class="selected">Home</li>
-			<li>Profiles</li>
+			<li class="selected">John's Guide</li>
+			<li>On TV</li>
+			<li>On Demand</li>
 			<li>Search</li>
-			<li>Browse</li>
-			<li>Recordings</li>
-			<li>TV Listings</li>
+			<!-- <li>Recordings</li> -->
+			<!-- <li>TV Listings</li> -->
 			<li>Settings</li>
 		</ul>
 

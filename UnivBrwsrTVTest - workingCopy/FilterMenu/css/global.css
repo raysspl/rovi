@@ -15,26 +15,52 @@ body{
 	height:40px;
 	width:90%;
 	border-bottom:1px solid #5a616b;
-	margin:0 auto;
+	margin:1% auto;
 	font-size:20px;
 	padding-top:40px;
+	/*margin-bottom: 5%;*/
+	padding-bottom: 1%;
 }
 
-#avatar{
+/*#avatar{
 	float: right;
 	margin-top: -10px;
-}
+}*/
 
-#header .headerRight{
-	float:right;
-	width: 12%;
-	height: 20px;
-	margin-top: -3px;
-}
-
-#header .headerLeft{
+div.headerLeft{
 	float:left;
-	width:50%;
+	width:45%;
+}
+
+/*This is Font-Awesome. This makes icon implementation through code much easier.*/
+.fa {
+	color: white;
+	margin: 0 2% 0 0; 
+}
+
+div.headerRight{
+	float: right;
+	width: 55%;
+	height: 20px;
+	margin-top: 1%;
+}
+
+div.column1 {
+	width: 27.5%;
+	float: right;
+	/*margin-right: 1%*/
+}
+
+div.column2 {
+	width: 27.5%;
+	float: right !important;
+	padding: 0 !important;
+	margin: 0 0 10% 0;	
+
+}
+
+h1.brand-name1 {
+	color: white;
 }
 
 #menuContainer{
@@ -98,6 +124,7 @@ body{
 
 .bcHi{
 	color:#1ac5a7;
+	font-size: 25px;
 }
 #pig{
 	position:absolute;
